@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.h1{
+    align-items: center;
+
+}
+
+.calculator {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.calculator input[type="text"] {
+    width: calc(100% - 20px);
+    height: 40px;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 24px; 
+    text-align: right;
+}
+
+.calculator button {
+    width: 70px;
+    height: 70px; 
+    margin: 5px;
+    font-size: 24px; 
+}
+
+.calculator button.operator {
+    background-color: #f0f0f0;
+}
